@@ -2,6 +2,8 @@
 
 const radius = [3, 4, 6, 7];
 
+// part 1
+// use  normal  function to calculate cercle
 // calculate curcle area
 const calculateArea = (radius) => {
   const outPut = [];
@@ -38,8 +40,17 @@ const calculateDiameter = (radius) => {
 
 console.log(calculateDiameter(radius));
 
+
+
+
+
+
+
+// part 2 
 // use heigher order function to calculate cercle
 
+
+// Logic function start 
 const calculateAreaLogic = (radius) => {
   return Math.PI * radius * radius;
 };
@@ -50,7 +61,9 @@ const calculateDiameterLogic = (radius) => {
   return 2 * radius;
 };
 
-// calculate function
+// logic function end 
+
+// calculate function 
 const calculate = (radius, logic) => {
   const outPut = [];
   for (let i = 0; i < radius.length; i++) {
