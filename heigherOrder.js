@@ -40,17 +40,10 @@ const calculateDiameter = (radius) => {
 
 console.log(calculateDiameter(radius));
 
-
-
-
-
-
-
-// part 2 
+// part 2
 // use heigher order function to calculate cercle
 
-
-// Logic function start 
+// Logic function start
 const calculateAreaLogic = (radius) => {
   return Math.PI * radius * radius;
 };
@@ -61,9 +54,9 @@ const calculateDiameterLogic = (radius) => {
   return 2 * radius;
 };
 
-// logic function end 
+// logic function end
 
-// calculate function 
+// calculate function
 const calculate = (radius, logic) => {
   const outPut = [];
   for (let i = 0; i < radius.length; i++) {
@@ -76,3 +69,14 @@ const calculate = (radius, logic) => {
 console.log(calculate(radius, calculateAreaLogic));
 console.log(calculate(radius, calculateCircumferenceLogic));
 console.log(calculate(radius, calculateDiameterLogic));
+
+
+// part 3 
+
+// use map  to calculate cercle
+
+
+
+console.log(radius.map(calculateAreaLogic))
+console.log(radius.map(calculateCircumferenceLogic))
+console.log(radius.map(calculateDiameterLogic))
