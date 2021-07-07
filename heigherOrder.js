@@ -70,13 +70,12 @@ console.log(calculate(radius, calculateAreaLogic));
 console.log(calculate(radius, calculateCircumferenceLogic));
 console.log(calculate(radius, calculateDiameterLogic));
 
-
-// part 3 
+// part 3
 
 // use map  to calculate cercle
 
+console.log(radius.map(calculateAreaLogic));
+console.log(radius.map(calculateCircumferenceLogic));
+console.log(radius.map(calculateDiameterLogic));
 
 
-console.log(radius.map(calculateAreaLogic))
-console.log(radius.map(calculateCircumferenceLogic))
-console.log(radius.map(calculateDiameterLogic))

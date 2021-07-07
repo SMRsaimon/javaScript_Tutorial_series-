@@ -13,6 +13,15 @@ function myFunk(quentity) {
 
     return price1 + price2;
   }
+  else if(20 < quentity && quentity <= 30){
+
+     const price1=1000*10
+     const price2=800*10
+     const price3=(quentity-20)*600
+
+     return price1+price2+price3
+
+  }
 }
 
 const Result = myFunk(15);
