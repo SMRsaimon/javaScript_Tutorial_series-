@@ -11,29 +11,60 @@ const calculateArea = (radius) => {
   return outPut;
 };
 
+// console.log(calculateArea(radius))
 
-console.log(calculateArea(radius))
+
+let  myArray=[]
+
+ myArray.push(10)
+
+
+
+// console.log(myArray,"hh")
+
+
+const object={}
+
+
 
 // Index number 
 // .indexOf
 // .length
-
 // .push()
 // .pop()
 
 const myarray=[2,3]
-
 myarray.push(12)
 myarray.pop()
-
 myarray.unshift(13)
 myarray.shift()
 
 
 const i=1
-console.log(myarray[i])
+
+const value=myarray[i]
+// console.log(myarray[1])
 
 const name=10;
+
+
+const foods=["apple", "mango","banana"]
+
+// console.log(foods.length)
+
+const indexValue=foods[foods.length-2] 
+// console.log(indexValue)
+
+ const indexNumber=foods.indexOf("apple")
+
+  
+   
+ foods.splice(indexNumber,1)
+
+ console.log(foods)
+
+   
+
 
 
 
